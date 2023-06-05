@@ -1,4 +1,4 @@
-body {
+/* body {
   .heading{text-align: center;}
   .images{
     display: block;
@@ -6,8 +6,8 @@ body {
   }
   width: 100;
   height: 100;
-  margin: 20;
-  .bottom{float: left;}
+  margin: 20; */
+  /* .bottom{float: left;}
 
 
   .down{float: left;}
@@ -20,7 +20,22 @@ body {
   .down{background-color: red;}
   .adjacent{background-color: red;}
   .final{background-color: red;}
-  #width{width: 800px,centre;}
+  #width{width: 800px,centre;} */
 
   
+
+section#details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
 }
+header h1{display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav{display: flex;
+  justify-content: center;
+
+}
+
